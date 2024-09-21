@@ -75,13 +75,12 @@ main {
   height: auto; 
 }
 
-.store-item p {
+/* .store-item p {
+display: inline;
 
-}
-
-.store-item span {
-  /* Why do they not automatically display inline? */
-  display: inline-block;
+} */
+div.store-item {
+  display: inline;
 }
 
 /* Footer */
