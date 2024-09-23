@@ -64,12 +64,11 @@ main {
 .store-item {
   background-color: #f2d3cb;
   border: 1px solid #888;
-  padding: 10px;
+  padding: 1rem;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  text-align: left;
 }
 
 .store-item img {
@@ -78,20 +77,38 @@ main {
 }
 
 .store-item p {
-  text-align: left;
-  font-size: 15px;
   color: #333;
-  margin: 5px 0;
+  margin-top: 0.5rem;
+}
+
+.store-item p:nth-of-type(2) {
+  margin-bottom: auto;
 }
 
 .store-item span {
-  margin-right: 10px;
+  display: inline-block;
+  margin-top: 2rem;
   font-weight: bold;
   color: #333;
 }
 
-div.store-item {
-  display: inline;
+.store-item .span-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+}
+
+.store-item .span-container span:nth-of-type(1) {
+  text-align: left; 
+}
+
+.store-item .span-container span:nth-of-type(2) {
+  text-align: center; 
+  flex-grow: 1; 
+}
+
+.store-item .span-container span:nth-of-type(3) {
+  text-align: right; 
 }
 
 /* Footer */
