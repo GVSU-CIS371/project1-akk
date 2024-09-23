@@ -45,7 +45,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-
+/* Main content */
 body, html {
   height:100%;
   margin: 0px;
@@ -62,12 +62,14 @@ main {
 }
 
 .store-item {
-  padding: 20px;
+  background-color: #f2d3cb;
   border: 1px solid #888;
+  padding: 10px;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  overflow: hidden;
+  align-items: center;
+  text-align: center;
 }
 
 .store-item img {
@@ -75,10 +77,18 @@ main {
   height: auto; 
 }
 
-/* .store-item p {
-display: inline;
+.store-item p {
+  font-size: 15px;
+  color: #333;
+  margin: 5px 0;
+}
 
-} */
+.store-item span {
+  margin-right: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
 div.store-item {
   display: inline;
 }
