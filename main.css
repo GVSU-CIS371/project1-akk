@@ -78,6 +78,7 @@ main {
 }
 
 .store-item p {
+  text-align: left;
   font-size: 15px;
   color: #333;
   margin: 5px 0;
